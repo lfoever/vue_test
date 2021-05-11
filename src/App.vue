@@ -3,6 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <div class="box"></div>
+    <div class="boxw"></div>
   </div>
 </template>
 
@@ -30,5 +31,10 @@ export default {
   width: 100px;
   height: 100px;
   background-color: #ccc;
+}
+.boxw {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(36, 31, 31);
 }
 </style>
