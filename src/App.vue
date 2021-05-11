@@ -3,16 +3,20 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <div class="box"></div>
+    <Tap />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Tap from "./components/Tap.vue";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
+
+    Tap,
   },
 };
 </script>
