@@ -4,12 +4,14 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <div class="box"></div>
     <div class="boxw"></div>
+    <Nav />
     <Tap />
   </div>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import Nav from "./components/Nav.vue";
 import Tap from "./components/Tap.vue";
 
 export default {
@@ -18,6 +20,8 @@ export default {
     HelloWorld,
 
     Tap,
+
+    Nav,
   },
 };
 </script>
